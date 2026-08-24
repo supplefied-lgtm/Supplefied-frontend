@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 160" width="100%" height="100%">
+  <rect width="100%" height="100%" fill="#111111"/>
+  <g transform="translate(20, 30)">
+    <!-- SURP text -->
+    <text x="20" y="68" font-family="'Impact', 'Arial Black', sans-serif" font-style="italic" font-size="40" font-weight="900" fill="#ffffff" letter-spacing="2">
+      SURP
+    </text>
+
+    <!-- SS Shield Emblem -->
+    <g transform="translate(145, 10)">
+      <polygon points="35,0 70,25 60,65 35,80 10,65 0,25" fill="none" stroke="#ffffff" stroke-width="6" stroke-linejoin="round"/>
+      <path d="M22,25 Q35,20 40,30 Q45,40 32,48 Q20,54 28,65 Q35,70 48,65" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+      <path d="M30,22 Q43,17 48,27 Q53,37 40,45 Q28,51 36,62 Q43,67 56,62" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+    </g>
+
+    <!-- SUPPS text -->
+    <text x="240" y="68" font-family="'Impact', 'Arial Black', sans-serif" font-style="italic" font-size="40" font-weight="900" fill="#ffffff" letter-spacing="2">
+      SUPPS
+    </text>
+  </g>
+</svg>

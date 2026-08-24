@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 160" width="100%" height="100%">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <g transform="translate(30, 35)">
+    <!-- Stylized S Icon -->
+    <path d="M25,10 L50,10 L30,40 L45,40 L15,80 L35,50 L20,50 Z" fill="#1e293b"/>
+    <path d="M30,40 L52,40 L22,78 L35,50 Z" fill="#eab308"/>
+    
+    <!-- Supplefied Text -->
+    <text x="70" y="52" font-family="'Space Grotesk', 'Inter', sans-serif" font-size="44" font-weight="900" fill="#1e293b" letter-spacing="-1">
+      upplef<tspan fill="#eab308">i</tspan>ed
+    </text>
+    <text x="72" y="78" font-family="'Inter', sans-serif" font-size="16" font-weight="600" fill="#64748b" letter-spacing="0.5">
+      upplements. Simplified.
+    </text>
+  </g>
+</svg>

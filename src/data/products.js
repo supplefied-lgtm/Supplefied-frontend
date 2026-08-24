@@ -4,6 +4,8 @@ export const PRODUCTS = [
     name: "ISO-KINETIC™ Pure Whey Isolate",
     slug: "iso-kinetic-pure-whey-isolate",
     tagline: "Cold-Filtered 100% Native Whey Protein Isolate with DigeZyme®",
+    brandId: "supplefied",
+    brandName: "Supplefied",
     category: "proteins",
     goal: "muscle",
     price: 64.99,
@@ -55,6 +57,8 @@ export const PRODUCTS = [
     name: "CYBER-DRIVE™ High-Stim Pre-Workout",
     slug: "cyber-drive-high-stim-pre-workout",
     tagline: "Laser Nootropic Focus + Clinical 8g L-Citrulline Malate Muscle Pump",
+    brandId: "surpsupps",
+    brandName: "Surp Supps",
     category: "pre-workout",
     goal: "energy",
     price: 49.99,
@@ -105,6 +109,8 @@ export const PRODUCTS = [
     name: "QUANTUM-ATP™ Creapure® Creatine",
     slug: "quantum-atp-creapure-creatine",
     tagline: "100% German Creapure® Micronized Creatine Monohydrate",
+    brandId: "creapure",
+    brandName: "Creapure®",
     category: "creatine",
     goal: "muscle",
     price: 34.99,
@@ -155,6 +161,8 @@ export const PRODUCTS = [
     name: "NEURO-REST™ Sleep & GH Matrix",
     slug: "neuro-rest-sleep-and-gh-matrix",
     tagline: "Deep REM Sleep Architecture, Melatonin-Free Cortisol Blocker",
+    brandId: "dexlabz",
+    brandName: "Dexlabz",
     category: "recovery",
     goal: "recovery",
     price: 44.99,
@@ -204,6 +212,8 @@ export const PRODUCTS = [
     name: "HYDRA-CELL™ Elite Electrolytes",
     slug: "hydra-cell-elite-electrolytes",
     tagline: "Rapid Cellular Rehydration Formula with Coconut Water Powder",
+    brandId: "dexlabz",
+    brandName: "Dexlabz",
     category: "daily-health",
     goal: "endurance",
     price: 29.99,
@@ -253,6 +263,8 @@ export const PRODUCTS = [
     name: "BIO-SHIELD™ 3-in-1 Omega + D3 + K2",
     slug: "bio-shield-3-in-1-omega-d3-k2",
     tagline: "Wild Alaskan Triglyceride Omega-3 with 5000 IU D3 + MenaQ7® K2",
+    brandId: "dexlabz",
+    brandName: "Dexlabz",
     category: "daily-health",
     goal: "daily-health",
     price: 39.99,
@@ -296,6 +308,161 @@ export const PRODUCTS = [
       "Enteric-coated with natural orange oil—Zero fishy burps"
     ],
     ingredients: "Wild Alaskan Pollock Fish Oil (Triglyceride form), Vitamin D3 (Cholecalciferol), MenaQ7® Vitamin K2 (as MK-7), Softgel Capsule (Bovine Gelatin, Glycerin, Purified Water), Natural Sweet Orange Oil, Non-GMO Mixed Tocopherols."
+  },
+  {
+    id: "sup-07",
+    name: "SURP NITRO-WHEY™ Hydrolyzed Peptides",
+    slug: "surp-nitro-whey-hydrolyzed-peptides",
+    tagline: "Rapid Absorption Hydrolyzed Whey with 3.2g Leucine Trigger",
+    brandId: "surpsupps",
+    brandName: "Surp Supps",
+    category: "proteins",
+    goal: "muscle",
+    price: 69.99,
+    originalPrice: 84.99,
+    rating: 4.88,
+    reviewCount: 220,
+    badge: "Hydrolyzed Peptides",
+    isFeatured: true,
+    isBestseller: false,
+    inStock: true,
+    stockCount: 28,
+    images: [
+      "https://images.unsplash.com/photo-1579722821273-0f6c7d44362f?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1593095948071-474c5cc2989d?auto=format&fit=crop&w=1000&q=80"
+    ],
+    flavors: ["Alpine Vanilla Ice Cream", "Double Rich Dutch Cocoa"],
+    sizes: ["2.2 lbs (33 Servings)", "4.5 lbs (68 Servings)"],
+    servingSize: "30g Scoop",
+    nutrition: {
+      protein: "28g",
+      bcaa: "6.8g",
+      eaas: "14.2g",
+      sugar: "0g",
+      carbs: "0.5g",
+      calories: "118 kcal",
+      fat: "0.2g"
+    },
+    boltProTip: "Ideal for immediate intra/post-workout recovery when blood flow to muscles is peaked.",
+    labCertificate: {
+      lotNumber: "AP-2026-HW1",
+      testedBy: "Informed-Sport UK Certified",
+      purityScore: "99.8%",
+      heavyMetalsPassed: true,
+      bannedSubstancesFree: true,
+      testDate: "February 12, 2026"
+    },
+    description: "Enzymatically pre-digested hydrolyzed whey isolate. Cleaved into di- and tri-peptides for hyper-rapid gastric transit and immediate muscle protein synthesis.",
+    highlights: [
+      "28g Hydrolyzed Isolate per serving with instant uptake",
+      "Zero lactose bloating with enhanced multi-enzyme complex",
+      "3.2g pure Leucine threshold per serving",
+      "Cross-flow microfiltered grass-fed dairy origin"
+    ],
+    ingredients: "Enzymatically Hydrolyzed Whey Protein Isolate, Cocoa Powder, Natural Flavors, Sunflower Lecithin, Protease & Lactase Enzyme Blend, Stevia Extract."
+  },
+  {
+    id: "sup-08",
+    name: "BOLT-FUEL™ Clear Whey Isolate Cooler",
+    slug: "bolt-fuel-clear-whey-isolate-cooler",
+    tagline: "Juice-Style Light & Refreshing 100% Native Whey Protein",
+    brandId: "supplefied",
+    brandName: "Supplefied",
+    category: "proteins",
+    goal: "muscle",
+    price: 54.99,
+    originalPrice: 64.99,
+    rating: 4.96,
+    reviewCount: 440,
+    badge: "⚡ Bolt's Innovation",
+    isFeatured: true,
+    isBestseller: true,
+    inStock: true,
+    stockCount: 50,
+    images: [
+      "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1579722821273-0f6c7d44362f?auto=format&fit=crop&w=1000&q=80"
+    ],
+    flavors: ["Electric Sour Apple", "Cyber Blue Lagoon", "Tropical Mango Spark"],
+    sizes: ["20 Servings (520g)", "40 Servings (1.04kg)"],
+    servingSize: "26g Scoop",
+    nutrition: {
+      protein: "22g",
+      bcaa: "5.1g",
+      eaas: "11.2g",
+      sugar: "0g",
+      carbs: "0.2g",
+      calories: "90 kcal",
+      fat: "0.1g"
+    },
+    boltProTip: "Shake with ice water, wait 60 seconds for the foam to settle into a crystal-clear juice drink.",
+    labCertificate: {
+      lotNumber: "BF-2026-C04",
+      testedBy: "Eurofins Scientific (ISO 17025)",
+      purityScore: "99.9%",
+      heavyMetalsPassed: true,
+      bannedSubstancesFree: true,
+      testDate: "February 16, 2026"
+    },
+    description: "Not milky, not thick. BOLT-FUEL™ drinks like a crisp iced tea or fruit juice while delivering 22g of ultra-purified native whey isolate with zero sugar.",
+    highlights: [
+      "Light, crisp fruit juice consistency with 22g protein",
+      "Zero milk texture or heavy stomach feel",
+      "Only 90 calories per serving with zero fat",
+      "Eurofins certified purity batch tested"
+    ],
+    ingredients: "Ultra-Filtered Clear Whey Isolate (Milk), Citric Acid, Natural Flavors, Malic Acid, Stevia Leaf Extract, Spirulina Extract (Color)."
+  },
+  {
+    id: "sup-09",
+    name: "CREA-POWER™ ATP Intra-Cellular Catalyst",
+    slug: "crea-power-atp-intra-cellular-catalyst",
+    tagline: "Creapure® Creatine Monohydrate + Russian Tarragon Extract",
+    brandId: "creapure",
+    brandName: "Creapure®",
+    category: "creatine",
+    goal: "muscle",
+    price: 39.99,
+    originalPrice: 48.00,
+    rating: 4.91,
+    reviewCount: 175,
+    badge: "ATP Absorption Booster",
+    isFeatured: false,
+    isBestseller: true,
+    inStock: true,
+    stockCount: 62,
+    images: [
+      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=1000&q=80"
+    ],
+    flavors: ["Wild Lemon Punch", "Crisp Glacier Ice"],
+    sizes: ["60 Servings (360g)"],
+    servingSize: "6g Scoop",
+    nutrition: {
+      protein: "0g",
+      bcaa: "0g",
+      eaas: "0g",
+      sugar: "0g",
+      carbs: "0g",
+      calories: "0 kcal",
+      fat: "0g"
+    },
+    boltProTip: "Take on workout and rest days alike. The Russian Tarragon extract enhances creatine uptake without extra simple sugars.",
+    labCertificate: {
+      lotNumber: "CP-2026-G82",
+      testedBy: "AlzChem Trostberg Analytical Lab",
+      purityScore: "99.99%",
+      heavyMetalsPassed: true,
+      bannedSubstancesFree: true,
+      testDate: "February 04, 2026"
+    },
+    description: "Combines authentic German Creapure® with AstraGin® and Russian Tarragon extract for superior intramuscular creatine transport without sugar spikes.",
+    highlights: [
+      "5,000mg Genuine German Creapure® Monohydrate",
+      "Enhanced with AstraGin® and Russian Tarragon for maximum uptake",
+      "Increases explosive power and intracellular glycogen storage",
+      "Tested free of DCD & DHT chemical byproducts"
+    ],
+    ingredients: "Creapure® Creatine Monohydrate, Russian Tarragon Extract (Artemisia dracunculus L.), AstraGin®, Natural Flavors, Citric Acid, Stevia."
   }
 ];
 
@@ -323,3 +490,22 @@ export const BUNDLE_DEALS = [
     image: "https://images.unsplash.com/photo-1512069772995-ec65ed45afd6?auto=format&fit=crop&w=800&q=80"
   }
 ];
+
+export function getProductById(id) {
+  return PRODUCTS.find((p) => p.id === id || p.slug === id);
+}
+
+export function getProductsByBrand(brandId) {
+  if (!brandId) return [];
+  const normalized = brandId.toLowerCase().trim();
+  return PRODUCTS.filter((p) => p.brandId?.toLowerCase() === normalized || p.brandName?.toLowerCase().includes(normalized));
+}
+
+export function getProductsByCategory(category) {
+  if (!category || category === "all") return PRODUCTS;
+  return PRODUCTS.filter((p) => p.category === category);
+}
+
+export function getFeaturedProducts() {
+  return PRODUCTS.filter((p) => p.isFeatured);
+}

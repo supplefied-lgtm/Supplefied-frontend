@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 160" width="100%" height="100%">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <g transform="translate(30, 35)">
+    <!-- Beaker d shape -->
+    <!-- Bubbles -->
+    <circle cx="82" cy="12" r="3.5" fill="#38bdf8"/>
+    <circle cx="90" cy="22" r="5" fill="#38bdf8"/>
+    <circle cx="78" cy="30" r="4" fill="#38bdf8"/>
+
+    <!-- d flask tube -->
+    <path d="M78,40 L88,40 L88,95 L78,95 Z" fill="#1e293b"/>
+    <circle cx="55" cy="65" r="28" fill="none" stroke="#1e293b" stroke-width="12"/>
+    <!-- Liquid glow in beaker -->
+    <path d="M45,60 L65,85 L55,95 L35,70 Z" fill="#00dc82"/>
+    <path d="M50,75 L62,88 L48,96 Z" fill="#38bdf8"/>
+
+    <!-- exlabz text -->
+    <text x="96" y="78" font-family="'Space Grotesk', 'Inter', sans-serif" font-size="52" font-weight="700" fill="#334155" letter-spacing="-1">
+      exlab<tspan fill="#00dc82" font-weight="800">z</tspan>
+    </text>
+  </g>
+</svg>
